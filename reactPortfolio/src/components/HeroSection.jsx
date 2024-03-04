@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/HeroSection.css'
 export const HeroSection = () => {
   return (
     <section id='HeroSection' className='hero-section'>
@@ -20,7 +20,7 @@ export const HeroSection = () => {
         <button className='btn btn-primary'>Drop us a message</button>
       </div>
       <div className='hero-Img'>
-        <img src='' alt='' />
+        <img src='/Images/profilepic.JPG' alt='ProfileImg' />
       </div>
     </section>
   )

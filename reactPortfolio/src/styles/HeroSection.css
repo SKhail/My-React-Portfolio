@@ -1,0 +1,63 @@
+:root {
+  --main: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --White: #ffff;
+  --black: #0000;
+}
+
+.btn {
+  font-family: 'Outift', sans-serif;
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  transition: background-color 0.5s;
+  font-style: italic;
+}
+
+.btn-outline-primary {
+  color: var(--White);
+  border: 1px solid var(--main);
+  background-color: var(--White);
+}
+.btn-outline-primary:hover {
+  color: var(--White);
+  background-color: var(--main);
+}
+
+.btn-primary {
+  color: var(--White);
+  background-color: var(--main);
+  border: 1px solid var(--main);
+}
+
+.btn-primary:hover {
+  color: var(--main);
+  background-color: (var(--White));
+}
+
+.btn-github {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: var(--github);
+  color: var(--main);
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  gap: 16px;
+  background-color: (var(--github));
+}
+
+.btn-github:hover {
+  background-color: (var(--White));
+  color: var(--github);
+}

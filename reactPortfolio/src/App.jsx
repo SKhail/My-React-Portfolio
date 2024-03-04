@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+//Importing Components
 import Header from './components/Header'
 import Homepage from './components/Homepage'
 import HeroSection from './components/HeroSection'
