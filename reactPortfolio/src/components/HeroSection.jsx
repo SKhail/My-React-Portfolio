@@ -20,7 +20,7 @@ export const HeroSection = () => {
         <button className='btn btn-primary'>Drop us a message</button>
       </div>
       <div className='hero-Img'>
-        <img src='/Images/profilepic.JPG' alt='ProfileImg' />
+        <img src='/Images/profile-pic.png' alt='ProfileImg' />
       </div>
     </section>
   )
