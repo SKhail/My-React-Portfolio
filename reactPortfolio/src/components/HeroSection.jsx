@@ -12,7 +12,15 @@ export const HeroSection = () => {
             <br />
             Developer
           </h1>
+          <p className='hero-section-des'>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, perspiciatis!
+            <br /> Lorem ipsum dolor sit amet.
+          </p>
         </div>
+        <button className='btn btn-primary'>Drop us a message</button>
+      </div>
+      <div className='hero-Img'>
+        <img src='' alt='' />
       </div>
     </section>
   )
