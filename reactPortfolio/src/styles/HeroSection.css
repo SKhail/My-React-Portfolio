@@ -1,6 +1,6 @@
 :root {
   --main: #5e3bee;
-  --heading-color: #282938;
+  --heading-color: #cfd1f1;
   --bg-shade: #f5fcff;
   --github: #e62872;
   --darkblue: #1c1e53;
@@ -101,4 +101,69 @@ h3 {
 .btn-github:hover {
   background-color: (var(--White));
   color: var(--github);
+}
+
+/* Section for Header */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 32px;
+  background-color: var(--heading-color);
+  padding: 135px 85px 133px;
+  justify-content: space-between;
+}
+.section-title {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  color: var(--heading-color);
+  font-style: normal;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600s;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.hero-section-title {
+  color: var(--heading-color);
+  line-height: 27px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.hero-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+.hero-content-box > button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.hero-section-des {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--darkblue);
+}
+
+.hero-img {
+  display: flex;
+}
+
+.hero-img > img {
+  height: 100%;
+  width: 100%;
 }
