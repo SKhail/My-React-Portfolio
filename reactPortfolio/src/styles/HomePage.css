@@ -1,0 +1,81 @@
+:root {
+  --main: #5e3bee;
+  --heading-color: #42434b;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --White: #ffff;
+  --black: #0000;
+  --body-light: #f0f3ff;
+  --body-dark: #211951;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 700;
+  line-height: 57px;
+  font-size: 45px;
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+/* buttons */
+
+.btn-primary {
+  background-color: var(--main);
+  border-color: var(--main);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--body-light);
+  border-color: var(--body-dark);
+}
+/* Section for Header */
+
+.section-title {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  color: var(--heading-color);
+  font-style: normal;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600s;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.hero-section-title {
+  color: var(--heading-color);
+  line-height: 27px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.hero-section-des {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--darkblue);
+}
+
+.hero-img {
+  display: flex;
+}
+
+.hero-img > img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-section {
+  background-color: var(--body-light);
+}

@@ -17,19 +17,16 @@ function App() {
         <div>
           <Header />
           <Routes>
-            <Route path='/' element={<HomePage />}></Route>
-            <Route path='*' element={<div>404 Not Found</div>}></Route>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/' element={<Header />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<ContactPage />} />
+            <Route path='/' element={<Footer />} />
+            <Route path='*' element={<div>404 Not Found</div>} />
           </Routes>
+          <Footer />
         </div>
       </Router>
-
-      {/* <Homepage />
-      <Header />
-      <HeroSection />
-      <Projectpage />
-      <Projects />
-      <ContactPage />
-      <Footer /> */}
     </div>
   )
 }
