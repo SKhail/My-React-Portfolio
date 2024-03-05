@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/HeroSection.css'
 
-export const HeroSection = () => {
+export const HomePage = () => {
   return (
     <section id='HeroSection' className='hero-section'>
       <div className='hero-content-box'>
@@ -27,4 +27,4 @@ export const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HomePage
