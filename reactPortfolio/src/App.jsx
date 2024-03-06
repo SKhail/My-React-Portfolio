@@ -16,7 +16,6 @@ function App() {
           <Header />
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/' element={<Header />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/' element={<Footer />} />
             <Route path='*' element={<div>404 Not Found</div>} />

@@ -10,9 +10,9 @@ const Projects = () => {
 
   return (
     <Container>
-      <h2 className='mb-4 text-center'>Projects</h2>
+      <h2 className='mb-4 text-center'></h2>
       <div className=' d-flex justify-content-center'>
-        <Carousel className='w-50 h-50'>
+        <Carousel className='w-50 h-50 mb-2'>
           {projects.map((item, index) => (
             <Carousel.Item key={index}>
               <Card className=''>
@@ -20,7 +20,7 @@ const Projects = () => {
                 <Card.Body className='custom-body'>
                   <Card.Title className='custom-title text-center'>{item.title}</Card.Title>
                   <Card.Text className='custom-text text-center'>{item.description}</Card.Text>
-                  <Button variant='info' href={item.link} className='custom-btn'>
+                  <Button variant='info' href={item.link}>
                     View Project
                   </Button>
                 </Card.Body>

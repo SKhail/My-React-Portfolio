@@ -62,3 +62,5 @@ N/A
 [https://react-bootstrap.netlify.app/docs/components/navbar/]
 
 [https://vitejs.dev/guide/]
+
+[https://colorhunt.co/palette/211951836fff15f5baf0f3ff]
