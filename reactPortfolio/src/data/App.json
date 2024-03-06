@@ -2,21 +2,28 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./Images/Movie-Quest.png",
+      "src": "./Images/Movie-quest.png",
       "title": "Movie-Quest",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "description": "In my first collaborative experience with a team of five. I took the leadership role by delegating the roles to get this completed in 2 weeks. We began by building a Kanban for everyone to keep track of the work which laid the groundwork for our project. Followed by a thorough exploration of each member's preference. My responsibilities included integrating the Youtube API, optimizing local storage and building the card layouts using Bootstrap 5.",
       "link": " https://github.com/RootGeorge17/Movie-Quest"
     },
     {
       "id": "2",
-      "src": "./Images/Movie-Quest.png",
-      "title": "Movie-Adventure",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "src": "./Images/Weather-app.png",
+      "title": "Weather-App",
+      "description": "This weather application empowers users to search for the preferred cities, enabling them to see it in real time forecast for the current day and the subsequent five days. Additionally Users can save their cities for future references.",
       "link": " https://github.com/RootGeorge17/Movie-Quest"
     },
     {
       "id": "3",
-      "src": "./Images/Movie-Quest.png",
+      "src": "./Images/Anime-quest.png",
+      "title": "Anime-Quest",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "link": " https://github.com/RootGeorge17/Movie-Quest"
+    },
+    {
+      "id": "4",
+      "src": "./Images/password-gen.png",
       "title": "Movie-Quest",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
       "link": " https://github.com/RootGeorge17/Movie-Quest"

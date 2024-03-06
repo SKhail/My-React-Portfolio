@@ -10,9 +10,6 @@ export const HomePage = () => {
           <Col md={6} className='hero-content-box'>
             <div className='hero-content'>
               <span className='section-title'>Front-End Developer</span>
-              <h1 className='hero-section-title'>
-                <br />
-              </h1>
               <p className='hero-section-des'>
                 I'm Said, as you might have gathered from the title, I've traversed various domains within the IT landscape. Amidst the challenging times of the COVID period, I
                 ventured into entrepreneurship, establishing and later divesting my own company within the span of a year. Technology, in its entirety,has long captivated my
@@ -20,18 +17,17 @@ export const HomePage = () => {
                 <br /> While my journey encompassed diverse IT realms, software development initially posed a unique challenge, one that intrigued me and continues to do so. Should
                 you seek further insights or have any inquiries, please don't hesitate to reach out. I'm more than willing to share my experiences.
               </p>
+
+              <a href='mailto:saidkhail091@gmail.com' className='custom-btn'>
+                Contact Me
+              </a>
             </div>
-            <Button variant='primary' className='btn-primary'>
-              {' '}
-              Drop us a message
-            </Button>
           </Col>
           <Col md={6} className='hero-img'>
-            <img src='/Images/profile-pic.png' className='img-fluid' alt='Profile-Image' height='400' width='400' />
+            <img src='/Images/profilepic.JPG' className='img-fluid' alt='Profile-Image' />
           </Col>
         </Row>
       </Container>
-      <Projects />
     </section>
   )
 }

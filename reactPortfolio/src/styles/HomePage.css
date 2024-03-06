@@ -30,13 +30,19 @@ h3 {
 
 /* buttons */
 
-.btn-primary {
-  background-color: var(--main);
-  border-color: var(--main);
+.custom-btn {
+  background-color: var(--body-light);
+  text-decoration: none;
+
+  border-radius: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 26px;
+
   transition: background-color 0.3s, border-color 0.3s;
 }
 
-.btn-primary:hover {
+.custom-btn:hover {
   background-color: var(--body-light);
   border-color: var(--body-dark);
 }
@@ -46,36 +52,35 @@ h3 {
   display: flex;
   align-items: flex-start;
   text-align: center;
-  color: var(--heading-color);
-  font-style: normal;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600s;
-  font-size: 21px;
-  line-height: 32px;
-}
-
-.hero-section-title {
-  color: var(--heading-color);
-  line-height: 27px;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 26px;
+  color: var(--White);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  line-height: 60px;
 }
 
 .hero-section-des {
   font-size: 20px;
   line-height: 28px;
-  color: var(--darkblue);
+  color: var(--White);
 }
 
 .hero-img {
   display: flex;
+  justify-content: center;
 }
 
 .hero-img > img {
-  height: 100%;
-  width: 100%;
+  object-fit: cover;
+  height: 450px;
+  width: 450px;
+}
+
+.img-fluid {
+  border-radius: 50%;
 }
 
 .hero-section {
-  background-color: var(--body-light);
+  background-color: var(--darkblue);
 }
