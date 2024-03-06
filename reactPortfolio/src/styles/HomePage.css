@@ -18,7 +18,7 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: var(--White);
+  color: #f0f3ff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   font-size: 30px;
   line-height: 60px;
@@ -27,7 +27,7 @@
 .hero-section-des {
   font-size: 20px;
   line-height: 28px;
-  color: var(--White);
+  color: #f0f3ff;
 }
 
 .hero-img {
@@ -39,6 +39,8 @@
   object-fit: cover;
   height: 450px;
   width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .img-fluid {
@@ -46,5 +48,5 @@
 }
 
 .hero-section {
-  background-color: #b0b3fe;
+  background-color: #211951;
 }

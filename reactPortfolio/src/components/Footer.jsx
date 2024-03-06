@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap'
 
 export const Footer = () => {
   return (
-    <footer className='footer-section bg-light py-5'>
+    <footer className='footer-section py-5'>
       <Container>
         <Row>
           <Col md={6}>

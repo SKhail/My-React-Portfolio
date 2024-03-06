@@ -1,11 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../styles/Header.css'
+
 function Header() {
   const [navActive, setNavActive] = useState(false)
 
-  //Open navabr
+  //Open navbar
   const toggleNav = () => {
     setNavActive(!navActive)
   }
@@ -45,16 +47,20 @@ function Header() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
           <Nav>
-            <Nav.Link href='#home'>Home</Nav.Link>
-            <Nav.Link href='#link'>Projects</Nav.Link>
+            <Nav.Link as={Link} to='/'>
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to='/Projects'>
+              Projects
+            </Nav.Link>
             <NavDropdown title='Find-More' id='basic-nav-dropdown'>
               <NavDropdown.Item href='#'>Download CV</NavDropdown.Item>
               <NavDropdown.Item href='https://github.com/SKhail' target='_blank' rel='noopener noreferrer'>
                 Github
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.3'>Coming Soon</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href='#action/3.4'>Separated link</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.4'>Coming Soon</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
