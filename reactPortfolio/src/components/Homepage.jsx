@@ -1,7 +1,9 @@
 import React from 'react'
 import '../styles/HomePage.css'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import Projects from './Projects'
+// import Projects from './Projects'
+import CustomButton from './CustomButton'
+
 export const HomePage = () => {
   return (
     <section id='HeroSection' className='hero-section'>
@@ -17,10 +19,7 @@ export const HomePage = () => {
                 <br /> While my journey encompassed diverse IT realms, software development initially posed a unique challenge, one that intrigued me and continues to do so. Should
                 you seek further insights or have any inquiries, please don't hesitate to reach out. I'm more than willing to share my experiences.
               </p>
-
-              <a href='mailto:saidkhail091@gmail.com' className='custom-btn'>
-                Contact Me
-              </a>
+              <CustomButton email='saidkhail091@gmail.com' />
             </div>
           </Col>
           <Col md={6} className='hero-img'>

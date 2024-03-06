@@ -1,0 +1,28 @@
+:root {
+  --main: #5e3bee;
+  --heading-color: #42434b;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --White: #ffff;
+  --black: #0000;
+  --body-light: #f0f3ff;
+  --body-dark: #211951;
+}
+
+.custom-btn {
+  color: white;
+  padding: 10px, 20px;
+  background-color: var(--darkblue);
+  transition: background-color 0.3s;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+
+  font-size: 16px;
+}
+
+.custom-btn:hover {
+  background-color: #45a049;
+}

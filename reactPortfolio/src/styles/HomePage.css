@@ -10,42 +10,6 @@
   --body-dark: #211951;
 }
 
-h1 {
-  font-weight: 700;
-  line-height: 60px;
-  font-size: 50px;
-}
-
-h2 {
-  font-weight: 700;
-  line-height: 57px;
-  font-size: 45px;
-}
-
-h3 {
-  font-weight: 700;
-  line-height: 30px;
-  font-size: 25px;
-}
-
-/* buttons */
-
-.custom-btn {
-  background-color: var(--body-light);
-  text-decoration: none;
-
-  border-radius: 100%;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 15px 26px;
-
-  transition: background-color 0.3s, border-color 0.3s;
-}
-
-.custom-btn:hover {
-  background-color: var(--body-light);
-  border-color: var(--body-dark);
-}
 /* Section for Header */
 
 .section-title {
@@ -82,5 +46,5 @@ h3 {
 }
 
 .hero-section {
-  background-color: var(--darkblue);
+  background-color: #b0b3fe;
 }
