@@ -1,42 +1,11 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import '../styles/Header.css'
 
 function Header() {
   const [navActive, setNavActive] = useState(false)
-
-  //Open navbar
-  const toggleNav = () => {
-    setNavActive(!navActive)
-  }
-
-  //Close navbar
-  const closeMenu = () => {
-    setNavActive(false)
-  }
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu() // Call to close the menu
-      }
-    }
-    //Include an event Listener
-    window.addEventListener('resize', handleResize)
-
-    //Returning
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
-
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu() // Call to close the menu
-    }
-  }, [])
 
   return (
     <Navbar expand='lg' className={`${navActive ? 'active' : ''}`}>
@@ -54,7 +23,9 @@ function Header() {
               Projects
             </Nav.Link>
             <NavDropdown title='Find-More' id='basic-nav-dropdown'>
-              <NavDropdown.Item href='#'>Download CV</NavDropdown.Item>
+              <NavDropdown.Item href='https://docs.google.com/document/d/1qWaTiffXX4ItqUoI5g0sjvk77pF3yBT0GhW5hSfHiNA/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                View CV
+              </NavDropdown.Item>
               <NavDropdown.Item href='https://github.com/SKhail' target='_blank' rel='noopener noreferrer'>
                 Github
               </NavDropdown.Item>

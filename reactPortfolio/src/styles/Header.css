@@ -1,3 +1,4 @@
+/* Start Navigation including the logo */
 .navbar-brand img {
   max-height: 50px;
 }
@@ -16,13 +17,14 @@
 }
 
 .nav-link {
-  color: #f0f3ff;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
+  font-weight: bold !important;
+
+  text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #836fff;
+  color: #836fff !important;
+  text-decoration: none;
 }
 
 .navbar-toggler {
@@ -32,17 +34,21 @@
 .navbar-toggler-icon {
   border-color: #333;
 }
+/* End Navigation including the logo */
 
-/* Smaller screens navbar */
+/* Start Sm Mb dropdown navbar */
 
 .dropdown-menu {
   box-shadow: 0, 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-item {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .dropdown-item:hover {
-  background-color: #836fff;
+  background-color: #836fff !important;
+  text-decoration: none;
 }
+
+/* End Sm Mb dropdown navbar */
