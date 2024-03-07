@@ -2,6 +2,8 @@
 
 ## Description
 
+Welcome to my Personal Proftfolio application, where I proudly showcase a diverse range of my projects. with a toolkit spanning Bootstrap, React-Bootstrap, CSS, Vanilla Javascript, Jquery,Node.js, Jest Testing and React. I've crafted this portfolio to embody both creativity and professionalism.
+
 ## Usage
 
 1. Clone the repository to your local machine using:
@@ -15,14 +17,11 @@
    ```
 4. Start the Application by running:
    ```
-   node index.js
+   npm run dev
    ```
-5. Follow the prompts to input information
-6. Once completed, it will generate a formatted
-   HTML page
-7. Screenshot shown below:
+5. Screenshot shown below:
 
-   <img src="" width="400" height="250"/>
+   <img src="reactPortfolio/public/Images/portfolio-screenshot.png" width="400" height="250"/>
 
 ## Installation
 
@@ -39,7 +38,13 @@
 
 3.  You can use the application
 
+    ```
+    npm run dev
+    ```
+
 ## Feature
+
+N/A
 
 ## Credits
 
