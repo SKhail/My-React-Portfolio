@@ -1,42 +1,49 @@
+:root {
+  --main: #5e3bee;
+  --heading-color: #42434b;
+  --text-white: #f0f3ff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #0000;
+  --body-light: #f0f3ff;
+  --background-top: #211951;
+  --background-bottom: #836fff;
+}
+
 .footer-section {
   padding: 50px 0;
-  background-color: #836fff;
+  background-color: var(--background-bottom);
+  height: 40.3vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.footer-section h2 {
-  color: #f0f3ff;
-  text-align: center;
+/* box around the contact section  */
+.contact-box {
+  border-radius: 30px;
+  background-color: var(--background-top);
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.footer-section p {
-  color: #f0f3ff;
-  text-align: center;
+/* text section  */
+.contact-box h2 {
+  color: var(--text-white);
 }
 
-.footer-section ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
+.contact-box p {
+  color: var(--text-white);
 }
 
-.footer-section li {
-  color: #f0f3ff;
+.contact-box ul {
+  padding-left: 0;
 }
 
-.footer-section .form-control {
-  margin-bottom: 20px;
+.contact-box li {
+  text-decoration: none;
+  color: var(--text-white);
+  margin-bottom: 10px;
 }
 
-.footer-section .btn-primary {
-  border-color: #f0f3ff;
-  background-color: #15f5ba;
-  color: #211951;
-}
-
-.footer-section .btn-primary:hover {
-  border-color: #c1c4cf;
-  background-color: #11c293;
-}
-
-.btn-primary {
+.contact-box img {
+  margin-right: 5px;
 }
