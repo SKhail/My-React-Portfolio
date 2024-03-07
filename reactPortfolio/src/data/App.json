@@ -18,15 +18,15 @@
       "id": "3",
       "src": "./Images/Anime-quest.png",
       "title": "Anime-Quest",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-      "link": " https://github.com/RootGeorge17/Movie-Quest"
+      "description": "This application is an engaging Anime Quiz that tests your knowledge with the popular animes. With a series of questions spanning various genres and themes.You will embark on an exciting journey to showcase your expertise. Be prepared for the challenge, as every wrong answer deducts 10 seconds from the timer, adding a thrilling element of time pressure to the quiz.Your score will be recorded and displayed in the highscore leaderboard, allowing you to compare your performance with other participants.",
+      "link": "https://github.com/SKhail/Anime-Quiz"
     },
     {
       "id": "4",
       "src": "./Images/password-gen.png",
-      "title": "Movie-Quest",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-      "link": " https://github.com/RootGeorge17/Movie-Quest"
+      "title": "Password-Generator",
+      "description": "This application is a password generator that enables a user to generate a password by utlising a series of prompts. additionally added a feature to allow users to pick a choice of light/dark mode",
+      "link": " https://github.com/SKhail/Password-Generator"
     }
   ]
 }
