@@ -27,16 +27,17 @@ function Footer() {
               <h2>Contact Me</h2>
               <p>If you have any questions, feel free to reach out to me </p>
               <ul className='list-unstyled'>
-                <li>Email: saidkhail091@gmail.com</li>
                 <li>
+                  <a href='mailto:saidkhail091@gmail.com' target='_blank' rel='noopener noreferrer'>
+                    <img src='./Images/email.png' alt='Email Icon' target='_blank' width='30' height='30' />
+                  </a>
                   <a href='https://github.com/SKhail' target='_blank' rel='noopener noreferrer'>
-                    {' '}
                     <img src='./Images/github-logo.png' alt='Github-Logo' width='30' height='30' />
                   </a>
                 </li>
               </ul>
               <div className='text-center'>
-                <Button variant='primary' onClick={handleShowModal}>
+                <Button variant='primary' className='helloBtn' onClick={handleShowModal}>
                   Say Hello 👋🏿
                 </Button>
               </div>

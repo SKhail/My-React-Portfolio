@@ -8,12 +8,13 @@
   --body-light: #f0f3ff;
   --background-top: #211951;
   --background-bottom: #836fff;
+  --btn-maincolor: #15f5ba;
+  --btn-hovercolor: #14b188;
 }
 
 .footer-section {
   padding: 50px 0;
   background-color: var(--background-bottom);
-  height: 40.3vh;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,10 +29,12 @@
 /* text section  */
 .contact-box h2 {
   color: var(--text-white);
+  text-align: center;
 }
 
 .contact-box p {
   color: var(--text-white);
+  text-align: center;
 }
 
 .contact-box ul {
@@ -39,11 +42,29 @@
 }
 
 .contact-box li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: var(--text-white);
-  margin-bottom: 10px;
 }
 
 .contact-box img {
   margin-right: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-box img:hover {
+  transform: scale(1.2);
+}
+.helloBtn {
+  background-color: var(--btn-maincolor) !important;
+  border-color: var(--btn-maincolor) !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.helloBtn:hover {
+  background-color: var(--btn-hovercolor) !important;
+  border-color: var(--btn-hovercolor) !important;
 }
