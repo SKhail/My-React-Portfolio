@@ -1,12 +1,14 @@
-// import { useState } from 'react'
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-//Importing Components
-import Header from './components/Header'
-import HomePage from './components/HomePage'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
+import '../src/App.css'; // Import other CSS files if needed
+
+// Importing Components
+import Header from './components/Header';
+import HomePage from './components/HomePage';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Cursor from './components/Cursor';
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
           <Footer />
         </div>
       </Router>
+      {/* Custom Cursor with Animation */}
+      <Cursor />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

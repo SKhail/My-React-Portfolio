@@ -1,0 +1,14 @@
+.custom-cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+  mix-blend-mode: difference;
+  transition: all 0.2s ease;
+}
+
+.expanded {
+  width: 40px;
+  height: 40px;
+}

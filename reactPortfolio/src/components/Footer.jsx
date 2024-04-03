@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
-import '../styles/Footer.css'
-import { Container, Row, Col, Button, Form, Modal } from 'react-bootstrap'
+import React, { useState } from 'react';
+import '../styles/Footer.css';
+import { Container, Row, Col, Button, Form, Modal } from 'react-bootstrap';
 
 function Footer() {
   //Utilising usestate for the modal to work
-  const [showModal, setShowmodal] = useState(false)
+  const [showModal, setShowmodal] = useState(false);
 
   //Handling  opening and closing of the modal
-  const handleShowModal = () => setShowmodal(true)
-  const handleCloseModal = () => setShowmodal(false)
+  const handleShowModal = () => setShowmodal(true);
+  const handleCloseModal = () => setShowmodal(false);
 
   //Dealing with the submission form
   const handleSubmission = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     // form logic
 
-    handleCloseModal() //Closing
-  }
+    handleCloseModal(); //Closing
+  };
 
   return (
     <footer className='footer-section py-5'>
@@ -36,12 +36,12 @@ function Footer() {
                   </a>
                 </li>
               </ul>
-              <div className='text-center'>
+              {/* <div className='text-center'>
                 <Button variant='primary' className='helloBtn' onClick={handleShowModal}>
                   Say Hello 👋🏿
-                </Button>
-              </div>
+                </Button> */}
             </div>
+            {/* </div> */}
             <Modal show={showModal} onHide={handleCloseModal}>
               <Modal.Header closeButton>
                 <Modal.Title>Contact Me </Modal.Title>
@@ -69,7 +69,7 @@ function Footer() {
         </Row>
       </Container>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
